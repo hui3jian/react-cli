@@ -1,16 +1,13 @@
-/** @format */
-
-import React from 'react'
-// import logo from './logo.svg'
-import './App.css'
-import {Button} from 'antd'
+import React from 'react';
+import '@/style/base.less';
+import { Button } from 'antd';
 
 const App: React.FC = () => {
     return (
         <div className="App">
             <Button type="primary">Button</Button>
         </div>
-    )
-}
+    );
+};
 
-export default App
+export default App;

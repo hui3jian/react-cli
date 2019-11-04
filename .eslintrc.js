@@ -26,6 +26,7 @@ module.exports = {
     rules: {
         // note you must disable the base rule as it can report incorrect errors
         'no-unused-vars': 0,
-        "@typescript-eslint/no-unused-vars": 0
+        "@typescript-eslint/no-unused-vars": 0,
+        "@typescript-eslint/no-var-requires": 0
     }
 }
